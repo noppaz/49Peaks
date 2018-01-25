@@ -20,10 +20,7 @@ body {
           overflow:hidden;
           border-right:1px solid rgba(0,0,0,0.25);
         }
-/*        .pad2 {
-          padding:0px;
-        }
-*/
+
         .map {
           position:absolute;
           left:20%;
@@ -118,12 +115,9 @@ body {
 
         /* Marker tweaks */
         .mapboxgl-popup {
-          padding-bottom: 50px;
+          padding-bottom: 10px;
         }
 
-        .mapboxgl-popup-close-button {
-          display:none;
-        }
         .mapboxgl-popup-content {
           font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
           padding:0;

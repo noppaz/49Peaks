@@ -28,22 +28,21 @@ function initMap() {
 
 	buildPeakList(peaks, map);
 
-	// Add an event listener for when a user clicks on the map
+	// Event listener for map icon clicks
 	map.on('click', function(e) {
-		// Query all the rendered points in the view
 		var features = map.queryRenderedFeatures(e.point, { layers: ['peaks'] });
 		if (features.length) {
 			var clickedPoint = features[0];
-			// 1. Fly to the point
+			
 			flyToPeak(clickedPoint, map);
-			// 2. Close all other popups and display popup for clicked store
 			createPopUp(clickedPoint, map);
-			// 3. Highlight listing in sidebar (and remove highlight for all other listings)
+
+			// Highlight sidebar
 			var activeItem = document.getElementsByClassName('active');
 			if (activeItem[0]) {
 			  activeItem[0].classList.remove('active');
 			}
-			// Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
+
 			var selectedFeature = clickedPoint.properties.name;
 
 			for (var i = 0; i < peaks.features.length; i++) {
@@ -51,7 +50,7 @@ function initMap() {
 			    var selectedFeatureIndex = i;
 			  }
 			}
-			// Select the correct list item using the found index and add the active class
+
 			var listing = document.getElementById('listing-' + selectedFeatureIndex);
 			listing.classList.add('active');
 		}
