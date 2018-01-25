@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.355,
+          42.439167
+        ]
+      },
+      "properties": {
+        "name": "Elbrus",
+        "country": "Russia",
+        "height": "5642",
+        "completed": "1 aug 2017",
+        "link": "http://49peaks.com/2017/08/07/elbrus/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.833611,
+          6.865
+        ]
+      },
+      "properties": {
+        "name": "Mont Blanc",
+        "country": "France & Italy",
+        "height": "4810",
+        "completed": "17 aug 2017",
+        "link": "http://49peaks.com/2017/08/18/mont-blanc-france-italy/"
+      }
+    }
+  ]
+}
