@@ -21,6 +21,15 @@ body {
           border-right:1px solid rgba(0,0,0,0.25);
         }
 
+        .marker {
+          border: none;
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          background-image: url('mountain-icon.svg');
+          background-color: rgba(255, 0, 0, 0);
+        }
+
         .map {
           position:absolute;
           left:20%;
@@ -95,14 +104,7 @@ body {
           border-radius:0;
         }
 
-        .marker {
-          border: none;
-          cursor: pointer;
-          height: 56px;
-          width: 56px;
-          background-image: url(marker.png);
-          background-color: rgba(0, 0, 0, 0);
-        }
+
 
         .clearfix { display:block; }
         .clearfix:after {
@@ -115,7 +117,7 @@ body {
 
         /* Marker tweaks */
         .mapboxgl-popup {
-          padding-bottom: 10px;
+          padding-bottom: 30px;
         }
 
         .mapboxgl-popup-content {

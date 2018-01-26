@@ -11,50 +11,59 @@ function initMap() {
 
 	var peaks = dataInit();
 
+	// map.on('load', function(e) {
+	// 	map.addLayer({
+	// 		id: 'peaks',
+	// 		type: 'symbol',
+	// 		source: {
+	// 			type: 'geojson',
+	// 			data: peaks
+	// 		},
+	// 		layout: {
+	// 			'icon-image': 'mountain-15',
+ //      			'icon-allow-overlap': true,
+	// 		}
+	// 	});
+	// });
 	map.on('load', function(e) {
-		map.addLayer({
-			id: 'peaks',
-			type: 'symbol',
-			source: {
-				type: 'geojson',
-				data: peaks
-			},
-			layout: {
-				'icon-image': 'mountain-15',
-      			'icon-allow-overlap': true,
-			}
+		map.addSource('places', {
+			type: 'geojson',
+			data: peaks
 		});
 	});
 
 	buildPeakList(peaks, map);
 
-	// Event listener for map icon clicks
-	map.on('click', function(e) {
-		var features = map.queryRenderedFeatures(e.point, { layers: ['peaks'] });
-		if (features.length) {
-			var clickedPoint = features[0];
-			
-			flyToPeak(clickedPoint, map);
-			createPopUp(clickedPoint, map);
+	// Add custom markers and event listeners
+	map.on('style.load', function() {
+		peaks.features.forEach(function(marker, i) {
+		    // Create image for marker
+		    var el = document.createElement('div');
+		    el.id = "marker-" + i;
+		    el.className = 'marker';
+		    // Add marker to map
+		    new mapboxgl.Marker(el, {offset: [0, -23]})
+		        .setLngLat(marker.geometry.coordinates)
+		        .addTo(map);
 
-			// Highlight sidebar
-			var activeItem = document.getElementsByClassName('active');
-			if (activeItem[0]) {
-			  activeItem[0].classList.remove('active');
-			}
+			// Event listener for map icon clicks
+			el.addEventListener('click', function(e) {
+				flyToPeak(marker, map);
+				createPopUp(marker, map);
 
-			var selectedFeature = clickedPoint.properties.name;
+				// Highlight sidebar
+				var activeItem = document.getElementsByClassName('active');
 
-			for (var i = 0; i < peaks.features.length; i++) {
-			  if (peaks.features[i].properties.name === selectedFeature) {
-			    var selectedFeatureIndex = i;
-			  }
-			}
+				e.stopPropagation();
+				if (activeItem[0]) {
+					activeItem[0].classList.remove('active');
+				}
 
-			var listing = document.getElementById('listing-' + selectedFeatureIndex);
-			listing.classList.add('active');
-		}
+				var listing = document.getElementById('listing-' + i);
+				listing.classList.add('active');
+			});
 		});
+	});
 }
 
 
