@@ -27,7 +27,7 @@ body {
           height: 15px;
           width: 15px;
           background-image: url('mountain-icon.svg');
-          background-color: rgba(255, 0, 0, 0);
+          background-color: rgba(0, 0, 0, 0);
         }
 
         .map {
