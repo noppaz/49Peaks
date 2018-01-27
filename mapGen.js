@@ -25,15 +25,21 @@ function initMap() {
 		    // Create image for marker
 		    var el = document.createElement('div');
 		    el.id = "marker-" + i;
-		    el.className = 'marker';
+
+		    // Decide marker color based on completion
+		    if (marker.properties.completed != "") {
+		    	el.className = 'marker_completed';
+		    } else {
+		    	el.className = 'marker';
+		    }
 		    // Add marker to map
+
 		    new mapboxgl.Marker(el, {offset: [0, 0]})
 		        .setLngLat(marker.geometry.coordinates)
 		        .addTo(map);
 
 			// Event listener for map clicks
 			el.addEventListener('click', function(e) {
-				// flyToPeak(marker, map);
 				createPopUp(marker, map);
 
 				// Highlight sidebar
@@ -78,11 +84,12 @@ function buildPeakList(data, map) {
     details.innerHTML = prop.country;
     var details2 = listing.appendChild(document.createElement('div'));
     details2.innerHTML = prop.height + " m";
-    // var details3 = listing.appendChild(document.createElement('div'));
-    // details3.href = "http://49peaks.com/2017/08/07/elbrus/";
-    // details3.innerHTML = prop.completed;
-    // var details4 = listing.appendChild(document.createElement('div'));
-    // details4.innerHTML = prop.link;
+    var details3 = listing.appendChild(document.createElement('div'));
+    details3.href = "http://49peaks.com/2017/08/07/elbrus/";
+    if (prop.completed != "") {
+    	details3.innerHTML = "Summited " + prop.completed;
+
+    }    
 
     // Event listener
 	link.addEventListener('click', function(e) {
@@ -107,16 +114,9 @@ function buildPeakList(data, map) {
 
 
 function flyToPeak(currentFeature, map) {
-	var zoomlvl;
-	if (map.getZoom() > 6) {
-		zoomlvl = map.getZoom();
-	} else {
-		zoomlvl = 6
-	}
-
 	map.flyTo({
 		center: currentFeature.geometry.coordinates,
-		zoom: zoomlvl
+		zoom: 5
 	});
 }
 
@@ -125,9 +125,21 @@ function createPopUp(currentFeature, map) {
 
 	if (popUps[0]) popUps[0].remove(); //Remove existing popup
 
+	var completedText;
+	if (currentFeature.properties.link != "") {
+		completedText = "<h4>hej</h4>";
+		completedText = '<h5>Summited <a href="' + currentFeature.properties.link + '">' + currentFeature.properties.completed + '</a></h5>';
+		console.log()
+	} else if (currentFeature.properties.completed != "") {
+		completedText = '<h5>Summited ' + currentFeature.properties.completed + '</h5>';
+	} else {
+		completedText = "";
+	}
+
 	var popup = new mapboxgl.Popup({})
 	.setLngLat(currentFeature.geometry.coordinates)
 	.setHTML('<h3>' + currentFeature.properties.name + '</h3>' +
-	  '<h4>' + currentFeature.properties.country + ' | ' + currentFeature.properties.height + ' m</h4>')
+	  '<h4>' + currentFeature.properties.country + ' | ' + currentFeature.properties.height + ' m</h4>' +
+	  completedText)
 	.addTo(map);
 }

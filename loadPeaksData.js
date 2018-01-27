@@ -209,9 +209,9 @@ function loadData() {
       },
       "properties": {
         "country": "Kosovo",
-    "name": "Đeravica + Rudoka e Madhe",
-    "height": "2656 m + 2658",
-    "completed": "",
+        "name": "Đeravica & Rudoka e Madhe",
+        "height": "2656 & 2658",
+        "completed": "",
         "link": ""
       }
     },
@@ -225,9 +225,9 @@ function loadData() {
       },
       "properties": {
         "country": "Slovakia",
-    "name": "Gerlachovský štít",
-    "height": "2654",
-    "completed": "",
+        "name": "Gerlachovský štít",
+        "height": "2654",
+        "completed": "",
         "link": ""
       }
     },
@@ -241,9 +241,9 @@ function loadData() {
       },
       "properties": {
         "country": "Liechtenstein",
-    "name": "Grauspitz",
-    "height": "2599",
-    "completed": "13 sep 2017",
+        "name": "Grauspitz",
+        "height": "2599",
+        "completed": "13 sep 2017",
         "link": "http://49peaks.com/2017/09/22/grauspitz-liechtenstein/"
       }
     },
@@ -257,9 +257,9 @@ function loadData() {
       },
       "properties": {
         "country": "Romania",
-    "name": "Moldoveanu Peak",
-    "height": "2544",
-    "completed": "3 oct 2017",
+        "name": "Moldoveanu Peak",
+        "height": "2544",
+        "completed": "3 oct 2017",
         "link": "http://49peaks.com/2018/01/12/moldoveanu-peak-romania/"
       }
     },
@@ -273,9 +273,9 @@ function loadData() {
       },
       "properties": {
         "country": "Montenegro",
-    "name": "Zla Kolata",
-    "height": "2534",
-    "completed": "",
+        "name": "Zla Kolata",
+        "height": "2534",
+        "completed": "",
         "link": ""
       }
     },
@@ -289,9 +289,9 @@ function loadData() {
       },
       "properties": {
         "country": "Poland",
-    "name": "Rysy",
-    "height": "2499",
-    "completed": "",
+        "name": "Rysy",
+        "height": "2499",
+        "completed": "",
         "link": ""
       }
     },
@@ -305,9 +305,9 @@ function loadData() {
       },
       "properties": {
         "country": "Norway",
-    "name": "Galdhøpiggen",
-    "height": "2469",
-    "completed": "",
+        "name": "Galdhøpiggen",
+        "height": "2469",
+        "completed": "",
         "link": ""
       }
     },
@@ -321,9 +321,9 @@ function loadData() {
       },
       "properties": {
         "country": "Bosnia and Herzegovina",
-    "name": "Maglic",
-    "height": "2386",
-    "completed": "24 sep 2017",
+        "name": "Maglic",
+        "height": "2386",
+        "completed": "24 sep 2017",
         "link": "http://49peaks.com/2017/10/27/maglic-bosnia-herzegovina/"
       }
     },
@@ -337,9 +337,9 @@ function loadData() {
       },
       "properties": {
         "country": "Serbia",
-    "name": "Midžor",
-    "height": "2169",
-    "completed": "26 sep 2017",
+        "name": "Midžor",
+        "height": "2169",
+        "completed": "26 sep 2017",
         "link": "http://49peaks.com/2017/11/02/midzor-serbia/"
       }
     },
@@ -353,9 +353,9 @@ function loadData() {
       },
       "properties": {
         "country": "Iceland",
-    "name": "Hvannadalshnúkur",
-    "height": "2110",
-    "completed": "",
+        "name": "Hvannadalshnúkur",
+        "height": "2110",
+        "completed": "",
         "link": ""
       }
     },
@@ -369,9 +369,9 @@ function loadData() {
       },
       "properties": {
         "country": "Sweden",
-    "name": "Kebnekaise",
-    "height": "2098",
-    "completed": "",
+        "name": "Kebnekaise",
+        "height": "2098",
+        "completed": "",
         "link": ""
       }
     },
@@ -385,9 +385,9 @@ function loadData() {
       },
       "properties": {
         "country": "Ukraine",
-    "name": "Mount Hoverla",
-    "height": "2061",
-    "completed": "",
+        "name": "Mount Hoverla",
+        "height": "2061",
+        "completed": "",
         "link": ""
       }
     },
@@ -401,9 +401,9 @@ function loadData() {
       },
       "properties": {
         "country": "Portugal",
-    "name": "Torre Mountain",
-    "height": "1993",
-    "completed": "18 sep 2017",
+        "name": "Torre Mountain",
+        "height": "1993",
+        "completed": "18 sep 2017",
         "link": "http://49peaks.com/2017/10/04/torre-mountain-portugal/"
       }
     },
@@ -417,9 +417,9 @@ function loadData() {
       },
       "properties": {
         "country": "Cyprus",
-    "name": "Olympus",
-    "height": "1952",
-    "completed": "",
+        "name": "Olympus",
+        "height": "1952",
+        "completed": "",
         "link": ""
       }
     },
@@ -433,9 +433,9 @@ function loadData() {
       },
       "properties": {
         "country": "Croatia",
-    "name": "Dinara",
-    "height": "1830",
-    "completed": "23 sep 2017",
+        "name": "Dinara",
+        "height": "1830",
+        "completed": "23 sep 2017",
         "link": "http://49peaks.com/2017/10/24/dinara-croatia/"
       }
     },
@@ -449,9 +449,9 @@ function loadData() {
       },
       "properties": {
         "country": "Czech Republic",
-    "name": "Snežka",
-    "height": "1603",
-    "completed": "",
+        "name": "Snežka",
+        "height": "1603",
+        "completed": "",
         "link": ""
       }
     },
@@ -465,9 +465,9 @@ function loadData() {
       },
       "properties": {
         "country": "Finland",
-    "name": "Halti",
-    "height": "1325",
-    "completed": "",
+        "name": "Halti",
+        "height": "1325",
+        "completed": "",
         "link": ""
       }
     },
@@ -481,9 +481,9 @@ function loadData() {
       },
       "properties": {
         "country": "United Kingdom",
-    "name": "Ben Nevis",
-    "height": "1345",
-    "completed": "",
+        "name": "Ben Nevis",
+        "height": "1345",
+        "completed": "",
         "link": ""
       }
     },
@@ -497,9 +497,9 @@ function loadData() {
       },
       "properties": {
         "country": "Wales",
-    "name": "Snowdon",
-    "height": "1085",
-    "completed": "2 nov 2017",
+        "name": "Snowdon",
+        "height": "1085",
+        "completed": "2 nov 2017",
         "link": ""
       }
     },
@@ -513,9 +513,9 @@ function loadData() {
       },
       "properties": {
         "country": "Ireland",
-    "name": "Carrauntoohil",
-    "height": "1038",
-    "completed": "26 okt 2017",
+        "name": "Carrauntoohil",
+        "height": "1038",
+        "completed": "26 okt 2017",
         "link": ""
       }
     },
@@ -529,9 +529,9 @@ function loadData() {
       },
       "properties": {
         "country": "Turkey",
-    "name": "Mahya Dağı",
-    "height": "1031",
-    "completed": "30 sep 2017",
+        "name": "Mahya Dağı",
+        "height": "1031",
+        "completed": "30 sep 2017",
         "link": "http://49peaks.com/2017/11/08/mahya-dagi-turkey/"
       }
     },
@@ -545,9 +545,9 @@ function loadData() {
       },
       "properties": {
         "country": "Hungray",
-    "name": "Kékes",
-    "height": "1014",
-    "completed": "5 nov 2017",
+        "name": "Kékes",
+        "height": "1014",
+        "completed": "5 nov 2017",
         "link": ""
       }
     },
@@ -561,9 +561,9 @@ function loadData() {
       },
       "properties": {
         "country": "England",
-    "name": "Scafell Pike",
-    "height": "978",
-    "completed": "3 nov 2017",
+        "name": "Scafell Pike",
+        "height": "978",
+        "completed": "3 nov 2017",
         "link": ""
       }
     },
@@ -577,9 +577,9 @@ function loadData() {
       },
       "properties": {
         "country": "North Ireland",
-    "name": "Slieve Donard",
-    "height": "850",
-    "completed": "25 okt 2017",
+        "name": "Slieve Donard",
+        "height": "850",
+        "completed": "25 okt 2017",
         "link": ""
       }
     },
@@ -593,9 +593,9 @@ function loadData() {
       },
       "properties": {
         "country": "San Marino",
-    "name": "Monte Titano",
-    "height": "739",
-    "completed": "8 oct 2017",
+        "name": "Monte Titano",
+        "height": "739",
+        "completed": "8 oct 2017",
         "link": ""
       }
     },
@@ -609,9 +609,9 @@ function loadData() {
       },
       "properties": {
         "country": "Belgium",
-    "name": "Signal de Botrange",
-    "height": "694",
-    "completed": "28 oct 2017",
+        "name": "Signal de Botrange",
+        "height": "694",
+        "completed": "28 oct 2017",
         "link": ""
       }
     },
@@ -625,9 +625,9 @@ function loadData() {
       },
       "properties": {
         "country": "Luxembourg",
-    "name": "Kneiff",
-    "height": "560",
-    "completed": "28 oct 2017",
+        "name": "Kneiff",
+        "height": "560",
+        "completed": "28 oct 2017",
         "link": ""
       }
     },
@@ -641,9 +641,9 @@ function loadData() {
       },
       "properties": {
         "country": "Moldova",
-    "name": "Bălănești Hill",
-    "height": "430",
-    "completed": "",
+        "name": "Bălănești Hill",
+        "height": "430",
+        "completed": "",
         "link": ""
       }
     },
@@ -657,9 +657,9 @@ function loadData() {
       },
       "properties": {
         "country": "Belarus",
-    "name": "Dzyarzhynskaya Hara",
-    "height": "345",
-    "completed": "22 aug 2017",
+        "name": "Dzyarzhynskaya Hara",
+        "height": "345",
+        "completed": "22 aug 2017",
         "link": "http://49peaks.com/2017/08/22/dzyarzhynskaya-hara-belarus/"
       }
     },
@@ -673,9 +673,9 @@ function loadData() {
       },
       "properties": {
         "country": "Netherlands",
-    "name": "Vaalserberg",
-    "height": "322",
-    "completed": "28 oct 2017",
+        "name": "Vaalserberg",
+        "height": "322",
+        "completed": "28 oct 2017",
         "link": ""
       }
     },
@@ -689,9 +689,9 @@ function loadData() {
       },
       "properties": {
         "country": "Estonia",
-    "name": "Suur Munamägi",
-    "height": "318",
-    "completed": "20 aug 2017",
+        "name": "Suur Munamägi",
+        "height": "318",
+        "completed": "20 aug 2017",
         "link": "http://49peaks.com/2017/08/20/suur-munamagi-estonia/"
       }
     },
@@ -705,9 +705,9 @@ function loadData() {
       },
       "properties": {
         "country": "Latvia",
-    "name": "Gaiziņkalns",
-    "height": "311",
-    "completed": "20 aug 2017",
+        "name": "Gaiziņkalns",
+        "height": "311",
+        "completed": "20 aug 2017",
         "link": "http://49peaks.com/2017/08/20/gaizinkalns-latvia/"
       }
     },
@@ -721,9 +721,9 @@ function loadData() {
       },
       "properties": {
         "country": "Lithuania",
-    "name": "Aukštojas Hill",
-    "height": "293",
-    "completed": "21 aug 2017",
+        "name": "Aukštojas Hill",
+        "height": "293",
+        "completed": "21 aug 2017",
         "link": "http://49peaks.com/2017/08/21/lithuania-aukstojas-hill/"
       }
     },
@@ -737,9 +737,9 @@ function loadData() {
       },
       "properties": {
         "country": "Malta",
-    "name": "Ta’ Dmejrek",
-    "height": "253",
-    "completed": "",
+        "name": "Ta’ Dmejrek",
+        "height": "253",
+        "completed": "",
         "link": ""
       }
     },
@@ -753,9 +753,9 @@ function loadData() {
       },
       "properties": {
         "country": "Denmark",
-    "name": "Møllehøj",
-    "height": "170",
-    "completed": "23 oct 2017",
+        "name": "Møllehøj",
+        "height": "170",
+        "completed": "23 oct 2017",
         "link": ""
       }
     },
@@ -769,9 +769,9 @@ function loadData() {
       },
       "properties": {
         "country": "Monaco",
-    "name": "Chemin des Révoires",
-    "height": "161",
-    "completed": "14 sep 2017",
+        "name": "Chemin des Révoires",
+        "height": "161",
+        "completed": "14 sep 2017",
         "link": "http://49peaks.com/2017/09/28/chemin-des-revoires-monaco/"
       }
     },
@@ -785,9 +785,9 @@ function loadData() {
       },
       "properties": {
         "country": "Vatican City",
-    "name": "Vatican Hill",
-    "height": "76",
-    "completed": "8 oct 2017",
+        "name": "Vatican Hill",
+        "height": "76",
+        "completed": "8 oct 2017",
         "link": ""
       }
     }
