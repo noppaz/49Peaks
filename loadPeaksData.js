@@ -1,4 +1,10 @@
-{
+// ##############################################################
+// -------------------------- Data ------------------------------
+// ##############################################################
+
+function loadData() {
+	var peaks = 
+	{
   "type": "FeatureCollection",
   "features": [
     {
@@ -203,7 +209,7 @@
       },
       "properties": {
         "country": "Kosovo",
-    "name": "Deravica + Rudoka e Madhe",
+    "name": "Đeravica + Rudoka e Madhe",
     "height": "2656 m + 2658",
     "completed": "",
         "link": ""
@@ -523,7 +529,7 @@
       },
       "properties": {
         "country": "Turkey",
-    "name": "Mahya Dagi",
+    "name": "Mahya Dağı",
     "height": "1031",
     "completed": "30 sep 2017",
         "link": "http://49peaks.com/2017/11/08/mahya-dagi-turkey/"
@@ -635,7 +641,7 @@
       },
       "properties": {
         "country": "Moldova",
-    "name": "B?l?ne?ti Hill",
+    "name": "Bălănești Hill",
     "height": "430",
     "completed": "",
         "link": ""
@@ -699,7 +705,7 @@
       },
       "properties": {
         "country": "Latvia",
-    "name": "Gaizinkalns",
+    "name": "Gaiziņkalns",
     "height": "311",
     "completed": "20 aug 2017",
         "link": "http://49peaks.com/2017/08/20/gaizinkalns-latvia/"
@@ -786,4 +792,8 @@
       }
     }
   ]
+}
+
+	// End of data input, return data variable
+	return peaks;
 }
