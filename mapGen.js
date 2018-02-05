@@ -84,12 +84,13 @@ function buildPeakList(data, map) {
     details.innerHTML = prop.country;
     var details2 = listing.appendChild(document.createElement('div'));
     details2.innerHTML = prop.height + " m";
-    var details3 = listing.appendChild(document.createElement('div'));
-    details3.href = "http://49peaks.com/2017/08/07/elbrus/";
     if (prop.completed != "") {
+    	var details3 = listing.appendChild(document.createElement('a'));
+    	details3.className = 'completedlink';
     	details3.innerHTML = "Summited " + prop.completed;
+    	details3.href = prop.link;
 
-    }    
+    }
 
     // Event listener
 	link.addEventListener('click', function(e) {

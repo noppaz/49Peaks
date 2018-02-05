@@ -119,6 +119,12 @@ body {
         .listings .item .title small { font-weight:400; }
         .listings .item.active .title,
         .listings .item .title:hover { color:#8cc63f; }
+
+        .listings .item .completedlink {
+          display:block;
+          color: #ddd0ba;
+        }
+
         .listings .item.active {
           background-color:#f8f8f8;
         }
