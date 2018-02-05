@@ -86,9 +86,13 @@ function buildPeakList(data, map) {
     details2.innerHTML = prop.height + " m";
     if (prop.completed != "") {
     	var details3 = listing.appendChild(document.createElement('a'));
-    	details3.className = 'completedlink';
     	details3.innerHTML = "Summited " + prop.completed;
-    	details3.href = prop.link;
+
+    	if (prop.link != "") {
+    		details3.className = 'completedlink';
+    		details3.href = prop.link;
+    	}
+
 
     }
 
@@ -128,9 +132,7 @@ function createPopUp(currentFeature, map) {
 
 	var completedText;
 	if (currentFeature.properties.link != "") {
-		completedText = "<h4>hej</h4>";
 		completedText = '<h5>Summited <a href="' + currentFeature.properties.link + '">' + currentFeature.properties.completed + '</a></h5>';
-		console.log()
 	} else if (currentFeature.properties.completed != "") {
 		completedText = '<h5>Summited ' + currentFeature.properties.completed + '</h5>';
 	} else {
