@@ -1,5 +1,6 @@
 function initMap() {
 	mapboxgl.accessToken = 'pk.eyJ1Ijoibm9haGhvbG0iLCJhIjoiY2lrZWNmNDI2MDA0YnY4bHo3aXU1dGZkeSJ9.8Eavws7sLknJNwX_9YcEpw';
+	var no_completed = 0;
 
 	var map = new mapboxgl.Map({
 		container: 'map',
@@ -9,6 +10,7 @@ function initMap() {
 	});
 
 	var peaks = loadData();
+	peaks = sortData(peaks);
 
 	map.on('load', function(e) {
 		map.addSource('places', {
@@ -29,6 +31,7 @@ function initMap() {
 		    // Decide marker color based on completion
 		    if (marker.properties.completed != "") {
 		    	el.className = 'marker_completed';
+		    	no_completed++;
 		    } else {
 		    	el.className = 'marker';
 		    }
@@ -92,8 +95,6 @@ function buildPeakList(data, map) {
     		details3.className = 'completedlink';
     		details3.href = prop.link;
     	}
-
-
     }
 
     // Event listener
@@ -111,6 +112,21 @@ function buildPeakList(data, map) {
 		this.parentNode.classList.add('active');
 	});
   }
+}
+
+function sortData(data) {
+	data.features.sort(function(a, b) {
+		sortProperty = "country";
+		if (a.properties[sortProperty] > b.properties[sortProperty]) {
+			return 1;
+		}
+		if (a.properties[sortProperty] < b.properties[sortProperty]) {
+			return -1;
+		}
+		return 0; // a must be equal to b
+	});
+
+	return data;
 }
 
 // ##############################################################

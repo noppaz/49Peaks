@@ -419,7 +419,7 @@ function loadData() {
         "country": "Cyprus",
         "name": "Olympus",
         "height": "1952",
-        "completed": "",
+        "completed": "3 feb 2018",
         "link": ""
       }
     },
@@ -580,7 +580,7 @@ function loadData() {
         "name": "Slieve Donard",
         "height": "850",
         "completed": "25 okt 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/02/17/slieve-donard-northen-ireland/"
       }
     },
     {
@@ -596,7 +596,7 @@ function loadData() {
         "name": "Monte Titano",
         "height": "739",
         "completed": "8 oct 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/02/17/monte-titano-san-marino/"
       }
     },
     {
@@ -643,7 +643,7 @@ function loadData() {
         "country": "Moldova",
         "name": "Bălănești Hill",
         "height": "430",
-        "completed": "",
+        "completed": "2 feb 2018",
         "link": ""
       }
     },
@@ -739,7 +739,7 @@ function loadData() {
         "country": "Malta",
         "name": "Ta’ Dmejrek",
         "height": "253",
-        "completed": "",
+        "completed": "4 feb 2018",
         "link": ""
       }
     },
@@ -756,7 +756,7 @@ function loadData() {
         "name": "Møllehøj",
         "height": "170",
         "completed": "23 oct 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/02/17/mollehoj-denmark/"
       }
     },
     {
@@ -788,7 +788,7 @@ function loadData() {
         "name": "Vatican Hill",
         "height": "76",
         "completed": "8 oct 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/02/17/vatican-hill-vatican/"
       }
     }
   ]
