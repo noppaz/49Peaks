@@ -156,22 +156,6 @@ function loadData() {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.358611, 40.085556
-        ]
-      },
-      "properties": {
-        "name": "Mount Olympus",
-        "country": "Greece",
-        "height": "2918",
-        "completed": "27 Sep 2017",
-        "link": "http://49peaks.com/2017/11/06/mount-olympus-greece/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.836667, 46.378333
         ]
       },
@@ -307,8 +291,8 @@ function loadData() {
         "country": "Norway",
         "name": "Galdhøpiggen",
         "height": "2469",
-        "completed": "",
-        "link": ""
+        "completed": "30 mar 2018",
+        "link": "http://49peaks.com/2018/04/02/galdhopiggen-norway/"
       }
     },
     {
@@ -355,8 +339,8 @@ function loadData() {
         "country": "Iceland",
         "name": "Hvannadalshnúkur",
         "height": "2110",
-        "completed": "",
-        "link": ""
+        "completed": "3 apr 2018",
+        "link": "http://49peaks.com/2018/04/05/hvannadalshnukur-iceland/"
       }
     },
     {
@@ -387,8 +371,8 @@ function loadData() {
         "country": "Ukraine",
         "name": "Mount Hoverla",
         "height": "2061",
-        "completed": "",
-        "link": ""
+        "completed": "15 apr 2018",
+        "link": "http://49peaks.com/2018/04/15/hoverla-ukraine/"
       }
     },
     {
@@ -420,7 +404,7 @@ function loadData() {
         "name": "Olympus",
         "height": "1952",
         "completed": "3 feb 2018",
-        "link": ""
+        "link": "http://49peaks.com/2017/10/04/torre-mountain-portugal/"
       }
     },
     {
@@ -483,8 +467,8 @@ function loadData() {
         "country": "United Kingdom",
         "name": "Ben Nevis",
         "height": "1345",
-        "completed": "",
-        "link": ""
+        "completed": "20 mar 2018",
+        "link": "http://49peaks.com/2018/03/27/ben-nevis-scotland/"
       }
     },
     {
@@ -516,7 +500,7 @@ function loadData() {
         "name": "Carrauntoohil",
         "height": "1038",
         "completed": "26 okt 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/02/24/carrauntoohil-ireland/"
       }
     },
     {
@@ -548,7 +532,7 @@ function loadData() {
         "name": "Kékes",
         "height": "1014",
         "completed": "5 nov 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/04/08/kekes-hungray/"
       }
     },
     {
@@ -564,7 +548,7 @@ function loadData() {
         "name": "Scafell Pike",
         "height": "978",
         "completed": "3 nov 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/04/08/scafell-pike-england/"
       }
     },
     {
@@ -612,7 +596,7 @@ function loadData() {
         "name": "Signal de Botrange",
         "height": "694",
         "completed": "28 oct 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/03/17/signal-de-botrange-belgium/"
       }
     },
     {
@@ -628,7 +612,7 @@ function loadData() {
         "name": "Kneiff",
         "height": "560",
         "completed": "28 oct 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/03/17/kneiff-luxembourg/"
       }
     },
     {
@@ -644,7 +628,7 @@ function loadData() {
         "name": "Bălănești Hill",
         "height": "430",
         "completed": "2 feb 2018",
-        "link": ""
+        "link": "http://49peaks.com/2018/04/11/balanesti-hill-moldova/"
       }
     },
     {
@@ -676,7 +660,7 @@ function loadData() {
         "name": "Vaalserberg",
         "height": "322",
         "completed": "28 oct 2017",
-        "link": ""
+        "link": "http://49peaks.com/2018/03/17/vaalserberg-netherlands/"
       }
     },
     {
@@ -740,7 +724,7 @@ function loadData() {
         "name": "Ta’ Dmejrek",
         "height": "253",
         "completed": "4 feb 2018",
-        "link": ""
+        "link": "http://49peaks.com/2018/04/11/ta-dmejrek-malta/"
       }
     },
     {
