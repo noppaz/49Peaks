@@ -51,8 +51,8 @@ function loadData() {
         "name": "Dufourspitze",
         "country": "Switzerland",
         "height": "4634",
-        "completed": "",
-        "link": ""
+        "completed": "12 July 2018",
+        "link": "http://49peaks.com/2018/08/13/dufourspitze-switzerland/"
       }
     },
     {
@@ -67,8 +67,8 @@ function loadData() {
         "name": "Grossglockner",
         "country": "Austria",
         "height": "3789",
-        "completed": "",
-        "link": ""
+        "completed": "8 July 2018",
+        "link": "http://49peaks.com/2018/08/01/grossglockner-austria/"
       }
     },
     {
@@ -99,8 +99,8 @@ function loadData() {
         "name": "Zugspitze",
         "country": "Germany",
         "height": "2962",
-        "completed": "",
-        "link": ""
+        "completed": "3 July 2018",
+        "link": "http://49peaks.com/2018/08/01/zugspitze-germany/"
       }
     },
     {
@@ -179,8 +179,8 @@ function loadData() {
         "name": "Mount Korab",
         "country": "Albania and Macedonia",
         "height": "2764",
-        "completed": "",
-        "link": ""
+        "completed": "18 July 2018",
+        "link": "http://49peaks.com/2018/08/13/korab-albania-macedonia/"
       }
     },
         {
@@ -195,8 +195,8 @@ function loadData() {
         "country": "Kosovo",
         "name": "Đeravica & Rudoka e Madhe",
         "height": "2656 & 2658",
-        "completed": "",
-        "link": ""
+        "completed": "19 & 20 July 2018",
+        "link": "http://49peaks.com/2018/08/13/rudoka-e-madhe-deravica-kosovo/"
       }
     },
     {
@@ -211,8 +211,8 @@ function loadData() {
         "country": "Slovakia",
         "name": "Gerlachovský štít",
         "height": "2654",
-        "completed": "",
-        "link": ""
+        "completed": "28 May 2018",
+        "link": "http://49peaks.com/2018/07/26/gerlachovsky-stit-slovakia/"
       }
     },
     {
@@ -227,7 +227,7 @@ function loadData() {
         "country": "Liechtenstein",
         "name": "Grauspitz",
         "height": "2599",
-        "completed": "13 sep 2017",
+        "completed": "13 Sep 2017",
         "link": "http://49peaks.com/2017/09/22/grauspitz-liechtenstein/"
       }
     },
@@ -243,7 +243,7 @@ function loadData() {
         "country": "Romania",
         "name": "Moldoveanu Peak",
         "height": "2544",
-        "completed": "3 oct 2017",
+        "completed": "3 Oct 2017",
         "link": "http://49peaks.com/2018/01/12/moldoveanu-peak-romania/"
       }
     },
@@ -259,8 +259,8 @@ function loadData() {
         "country": "Montenegro",
         "name": "Zla Kolata",
         "height": "2534",
-        "completed": "",
-        "link": ""
+        "completed": "16 July 2018",
+        "link": "http://49peaks.com/2018/08/13/zla-kolata-montenegro/"
       }
     },
     {
@@ -275,8 +275,8 @@ function loadData() {
         "country": "Poland",
         "name": "Rysy",
         "height": "2499",
-        "completed": "",
-        "link": ""
+        "completed": "29 May 2018",
+        "link": "http://49peaks.com/2018/08/01/rysy-poland/"
       }
     },
     {
@@ -291,7 +291,7 @@ function loadData() {
         "country": "Norway",
         "name": "Galdhøpiggen",
         "height": "2469",
-        "completed": "30 mar 2018",
+        "completed": "30 Mar 2018",
         "link": "http://49peaks.com/2018/04/02/galdhopiggen-norway/"
       }
     },
@@ -307,7 +307,7 @@ function loadData() {
         "country": "Bosnia and Herzegovina",
         "name": "Maglic",
         "height": "2386",
-        "completed": "24 sep 2017",
+        "completed": "24 Sep 2017",
         "link": "http://49peaks.com/2017/10/27/maglic-bosnia-herzegovina/"
       }
     },
@@ -323,7 +323,7 @@ function loadData() {
         "country": "Serbia",
         "name": "Midžor",
         "height": "2169",
-        "completed": "26 sep 2017",
+        "completed": "26 Sep 2017",
         "link": "http://49peaks.com/2017/11/02/midzor-serbia/"
       }
     },
@@ -339,7 +339,7 @@ function loadData() {
         "country": "Iceland",
         "name": "Hvannadalshnúkur",
         "height": "2110",
-        "completed": "3 apr 2018",
+        "completed": "3 Apr 2018",
         "link": "http://49peaks.com/2018/04/05/hvannadalshnukur-iceland/"
       }
     },
@@ -355,8 +355,8 @@ function loadData() {
         "country": "Sweden",
         "name": "Kebnekaise",
         "height": "2098",
-        "completed": "",
-        "link": ""
+        "completed": "27 July 2018",
+        "link": "http://49peaks.com/2017/08/09/kebnekaise/"
       }
     },
     {
@@ -371,7 +371,7 @@ function loadData() {
         "country": "Ukraine",
         "name": "Mount Hoverla",
         "height": "2061",
-        "completed": "15 apr 2018",
+        "completed": "15 Apr 2018",
         "link": "http://49peaks.com/2018/04/15/hoverla-ukraine/"
       }
     },
@@ -387,7 +387,7 @@ function loadData() {
         "country": "Portugal",
         "name": "Torre Mountain",
         "height": "1993",
-        "completed": "18 sep 2017",
+        "completed": "18 Sep 2017",
         "link": "http://49peaks.com/2017/10/04/torre-mountain-portugal/"
       }
     },
@@ -403,7 +403,7 @@ function loadData() {
         "country": "Cyprus",
         "name": "Olympus",
         "height": "1952",
-        "completed": "3 feb 2018",
+        "completed": "3 Feb 2018",
         "link": "http://49peaks.com/2017/10/04/torre-mountain-portugal/"
       }
     },
@@ -419,7 +419,7 @@ function loadData() {
         "country": "Croatia",
         "name": "Dinara",
         "height": "1830",
-        "completed": "23 sep 2017",
+        "completed": "23 Sep 2017",
         "link": "http://49peaks.com/2017/10/24/dinara-croatia/"
       }
     },
@@ -435,8 +435,8 @@ function loadData() {
         "country": "Czech Republic",
         "name": "Snežka",
         "height": "1603",
-        "completed": "",
-        "link": ""
+        "completed": "26 May 2018",
+        "link": "http://49peaks.com/2018/08/01/snezka-czech-republic/"
       }
     },
     {
@@ -451,8 +451,8 @@ function loadData() {
         "country": "Finland",
         "name": "Halti",
         "height": "1325",
-        "completed": "",
-        "link": ""
+        "completed": "25 July 2018",
+        "link": "http://49peaks.com/2018/08/13/halti-finland/"
       }
     },
     {
@@ -467,7 +467,7 @@ function loadData() {
         "country": "United Kingdom",
         "name": "Ben Nevis",
         "height": "1345",
-        "completed": "20 mar 2018",
+        "completed": "20 Mar 2018",
         "link": "http://49peaks.com/2018/03/27/ben-nevis-scotland/"
       }
     },
@@ -483,7 +483,7 @@ function loadData() {
         "country": "Wales",
         "name": "Snowdon",
         "height": "1085",
-        "completed": "2 nov 2017",
+        "completed": "2 Nov 2017",
         "link": "http://49peaks.com/2018/03/09/snowdon-wales/"
       }
     },
@@ -499,7 +499,7 @@ function loadData() {
         "country": "Ireland",
         "name": "Carrauntoohil",
         "height": "1038",
-        "completed": "26 okt 2017",
+        "completed": "26 Oct 2017",
         "link": "http://49peaks.com/2018/02/24/carrauntoohil-ireland/"
       }
     },
@@ -515,7 +515,7 @@ function loadData() {
         "country": "Turkey",
         "name": "Mahya Dağı",
         "height": "1031",
-        "completed": "30 sep 2017",
+        "completed": "30 Sep 2017",
         "link": "http://49peaks.com/2017/11/08/mahya-dagi-turkey/"
       }
     },
@@ -531,7 +531,7 @@ function loadData() {
         "country": "Hungray",
         "name": "Kékes",
         "height": "1014",
-        "completed": "5 nov 2017",
+        "completed": "5 Nov 2017",
         "link": "http://49peaks.com/2018/04/08/kekes-hungray/"
       }
     },
@@ -547,7 +547,7 @@ function loadData() {
         "country": "England",
         "name": "Scafell Pike",
         "height": "978",
-        "completed": "3 nov 2017",
+        "completed": "3 Nov 2017",
         "link": "http://49peaks.com/2018/04/08/scafell-pike-england/"
       }
     },
@@ -563,7 +563,7 @@ function loadData() {
         "country": "North Ireland",
         "name": "Slieve Donard",
         "height": "850",
-        "completed": "25 okt 2017",
+        "completed": "25 Oct 2017",
         "link": "http://49peaks.com/2018/02/17/slieve-donard-northen-ireland/"
       }
     },
@@ -579,7 +579,7 @@ function loadData() {
         "country": "San Marino",
         "name": "Monte Titano",
         "height": "739",
-        "completed": "8 oct 2017",
+        "completed": "8 Oct 2017",
         "link": "http://49peaks.com/2018/02/17/monte-titano-san-marino/"
       }
     },
@@ -595,7 +595,7 @@ function loadData() {
         "country": "Belgium",
         "name": "Signal de Botrange",
         "height": "694",
-        "completed": "28 oct 2017",
+        "completed": "28 Oct 2017",
         "link": "http://49peaks.com/2018/03/17/signal-de-botrange-belgium/"
       }
     },
@@ -611,7 +611,7 @@ function loadData() {
         "country": "Luxembourg",
         "name": "Kneiff",
         "height": "560",
-        "completed": "28 oct 2017",
+        "completed": "28 Oct 2017",
         "link": "http://49peaks.com/2018/03/17/kneiff-luxembourg/"
       }
     },
@@ -627,7 +627,7 @@ function loadData() {
         "country": "Moldova",
         "name": "Bălănești Hill",
         "height": "430",
-        "completed": "2 feb 2018",
+        "completed": "2 Feb 2018",
         "link": "http://49peaks.com/2018/04/11/balanesti-hill-moldova/"
       }
     },
@@ -643,7 +643,7 @@ function loadData() {
         "country": "Belarus",
         "name": "Dzyarzhynskaya Hara",
         "height": "345",
-        "completed": "22 aug 2017",
+        "completed": "22 Aug 2017",
         "link": "http://49peaks.com/2017/08/22/dzyarzhynskaya-hara-belarus/"
       }
     },
@@ -659,7 +659,7 @@ function loadData() {
         "country": "Netherlands",
         "name": "Vaalserberg",
         "height": "322",
-        "completed": "28 oct 2017",
+        "completed": "28 Oct 2017",
         "link": "http://49peaks.com/2018/03/17/vaalserberg-netherlands/"
       }
     },
@@ -675,7 +675,7 @@ function loadData() {
         "country": "Estonia",
         "name": "Suur Munamägi",
         "height": "318",
-        "completed": "20 aug 2017",
+        "completed": "20 Aug 2017",
         "link": "http://49peaks.com/2017/08/20/suur-munamagi-estonia/"
       }
     },
@@ -691,7 +691,7 @@ function loadData() {
         "country": "Latvia",
         "name": "Gaiziņkalns",
         "height": "311",
-        "completed": "20 aug 2017",
+        "completed": "20 Aug 2017",
         "link": "http://49peaks.com/2017/08/20/gaizinkalns-latvia/"
       }
     },
@@ -707,7 +707,7 @@ function loadData() {
         "country": "Lithuania",
         "name": "Aukštojas Hill",
         "height": "293",
-        "completed": "21 aug 2017",
+        "completed": "21 Aug 2017",
         "link": "http://49peaks.com/2017/08/21/lithuania-aukstojas-hill/"
       }
     },
@@ -723,7 +723,7 @@ function loadData() {
         "country": "Malta",
         "name": "Ta’ Dmejrek",
         "height": "253",
-        "completed": "4 feb 2018",
+        "completed": "4 Feb 2018",
         "link": "http://49peaks.com/2018/04/11/ta-dmejrek-malta/"
       }
     },
@@ -739,7 +739,7 @@ function loadData() {
         "country": "Denmark",
         "name": "Møllehøj",
         "height": "170",
-        "completed": "23 oct 2017",
+        "completed": "23 Oct 2017",
         "link": "http://49peaks.com/2018/02/17/mollehoj-denmark/"
       }
     },
@@ -755,7 +755,7 @@ function loadData() {
         "country": "Monaco",
         "name": "Chemin des Révoires",
         "height": "161",
-        "completed": "14 sep 2017",
+        "completed": "14 Sep 2017",
         "link": "http://49peaks.com/2017/09/28/chemin-des-revoires-monaco/"
       }
     },
@@ -771,7 +771,7 @@ function loadData() {
         "country": "Vatican City",
         "name": "Vatican Hill",
         "height": "76",
-        "completed": "8 oct 2017",
+        "completed": "8 Oct 2017",
         "link": "http://49peaks.com/2018/02/17/vatican-hill-vatican/"
       }
     }
